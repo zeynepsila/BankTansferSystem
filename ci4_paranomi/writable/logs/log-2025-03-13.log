@@ -1,0 +1,162 @@
+CRITICAL - 2025-03-13 03:14:57 --> Error: Call to a member function toArray() on array
+[Method: GET, Route: dashboard]
+in APPPATH\Controllers\DashboardController.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp81\\htdocs\\ci4_paranomi\\public\\index.php')
+CRITICAL - 2025-03-13 03:17:45 --> ErrorException: Attempt to read property "username" on array
+[Method: GET, Route: dashboard]
+in APPPATH\Controllers\DashboardController.php on line 33.
+ 1 APPPATH\Controllers\DashboardController.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on array', 'D:\\xampp81\\htdocs\\ci4_paranomi\\app\\Controllers\\DashboardController.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp81\\htdocs\\ci4_paranomi\\public\\index.php')
+CRITICAL - 2025-03-13 22:54:28 --> Error: Call to undefined method CodeIgniter\Filters\Filters::runRequired()
+[Method: POST, Route: login]
+in SYSTEMPATH\CodeIgniter.php on line 387.
+ 1 SYSTEMPATH\CodeIgniter.php(347): CodeIgniter\CodeIgniter->runRequiredBeforeFilters(Object(CodeIgniter\Filters\Filters))
+ 2 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 3 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 4 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 5 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp81\\htdocs\\ci4_paranomi\\public\\index.php')
+CRITICAL - 2025-03-13 22:54:31 --> Error: Call to undefined method CodeIgniter\Filters\Filters::runRequired()
+[Method: GET, Route: login]
+in SYSTEMPATH\CodeIgniter.php on line 387.
+ 1 SYSTEMPATH\CodeIgniter.php(347): CodeIgniter\CodeIgniter->runRequiredBeforeFilters(Object(CodeIgniter\Filters\Filters))
+ 2 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 3 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 4 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 5 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp81\\htdocs\\ci4_paranomi\\public\\index.php')
+CRITICAL - 2025-03-13 22:54:41 --> Error: Call to undefined method CodeIgniter\Filters\Filters::runRequired()
+[Method: GET, Route: login]
+in SYSTEMPATH\CodeIgniter.php on line 387.
+ 1 SYSTEMPATH\CodeIgniter.php(347): CodeIgniter\CodeIgniter->runRequiredBeforeFilters(Object(CodeIgniter\Filters\Filters))
+ 2 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 3 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 4 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 5 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp81\\htdocs\\ci4_paranomi\\public\\index.php')
+CRITICAL - 2025-03-13 22:56:52 --> Error: Call to undefined method CodeIgniter\Filters\Filters::runRequired()
+[Method: GET, Route: login]
+in SYSTEMPATH\CodeIgniter.php on line 387.
+ 1 SYSTEMPATH\CodeIgniter.php(347): CodeIgniter\CodeIgniter->runRequiredBeforeFilters(Object(CodeIgniter\Filters\Filters))
+ 2 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 3 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 4 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 5 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp81\\htdocs\\ci4_paranomi\\public\\index.php')
+CRITICAL - 2025-03-13 22:56:52 --> Error: Call to undefined method CodeIgniter\Filters\Filters::runRequired()
+[Method: GET, Route: login]
+in SYSTEMPATH\CodeIgniter.php on line 387.
+ 1 SYSTEMPATH\CodeIgniter.php(347): CodeIgniter\CodeIgniter->runRequiredBeforeFilters(Object(CodeIgniter\Filters\Filters))
+ 2 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 3 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 4 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 5 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp81\\htdocs\\ci4_paranomi\\public\\index.php')
+CRITICAL - 2025-03-13 22:57:53 --> Error: Call to undefined method CodeIgniter\Filters\Filters::runRequired()
+[Method: GET, Route: login]
+in SYSTEMPATH\CodeIgniter.php on line 387.
+ 1 SYSTEMPATH\CodeIgniter.php(347): CodeIgniter\CodeIgniter->runRequiredBeforeFilters(Object(CodeIgniter\Filters\Filters))
+ 2 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 3 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 4 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 5 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp81\\htdocs\\ci4_paranomi\\public\\index.php')
+CRITICAL - 2025-03-13 22:57:56 --> Error: Call to undefined method CodeIgniter\Filters\Filters::runRequired()
+[Method: GET, Route: login]
+in SYSTEMPATH\CodeIgniter.php on line 387.
+ 1 SYSTEMPATH\CodeIgniter.php(347): CodeIgniter\CodeIgniter->runRequiredBeforeFilters(Object(CodeIgniter\Filters\Filters))
+ 2 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 3 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 4 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 5 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp81\\htdocs\\ci4_paranomi\\public\\index.php')
+CRITICAL - 2025-03-13 22:58:07 --> Error: Call to undefined method CodeIgniter\Filters\Filters::runRequired()
+[Method: GET, Route: login]
+in SYSTEMPATH\CodeIgniter.php on line 387.
+ 1 SYSTEMPATH\CodeIgniter.php(347): CodeIgniter\CodeIgniter->runRequiredBeforeFilters(Object(CodeIgniter\Filters\Filters))
+ 2 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 3 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 4 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 5 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp81\\htdocs\\ci4_paranomi\\public\\index.php')
+CRITICAL - 2025-03-13 22:58:07 --> Error: Call to undefined method CodeIgniter\Filters\Filters::runRequired()
+[Method: GET, Route: login]
+in SYSTEMPATH\CodeIgniter.php on line 387.
+ 1 SYSTEMPATH\CodeIgniter.php(347): CodeIgniter\CodeIgniter->runRequiredBeforeFilters(Object(CodeIgniter\Filters\Filters))
+ 2 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 3 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 4 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 5 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp81\\htdocs\\ci4_paranomi\\public\\index.php')
+CRITICAL - 2025-03-13 23:04:02 --> Error: Call to undefined method CodeIgniter\CodeIgniter::setContext()
+[Method: GET, Route: login]
+in SYSTEMPATH\Boot.php on line 323.
+ 1 SYSTEMPATH\Boot.php(66): CodeIgniter\Boot::initializeCodeIgniter()
+ 2 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 3 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp81\\htdocs\\ci4_paranomi\\public\\index.php')
+CRITICAL - 2025-03-13 23:07:04 --> CodeIgniter\Exceptions\RuntimeException: Cannot stop timer: invalid name given.
+[Method: GET, Route: login]
+in SYSTEMPATH\Debug\Timer.php on line 71.
+ 1 SYSTEMPATH\CodeIgniter.php(121): CodeIgniter\Debug\Timer->stop('required_before_filters')
+ 2 SYSTEMPATH\CodeIgniter.php(79): CodeIgniter\CodeIgniter->runRequiredBeforeFilters(Object(CodeIgniter\Filters\Filters))
+ 3 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp81\\htdocs\\ci4_paranomi\\public\\index.php')
+CRITICAL - 2025-03-13 23:19:30 --> CodeIgniter\Exceptions\RuntimeException: Cannot stop timer: invalid name given.
+[Method: GET, Route: login]
+in SYSTEMPATH\Debug\Timer.php on line 71.
+ 1 SYSTEMPATH\CodeIgniter.php(106): CodeIgniter\Debug\Timer->stop('required_before_filters')
+ 2 SYSTEMPATH\CodeIgniter.php(71): CodeIgniter\CodeIgniter->runRequiredBeforeFilters(Object(CodeIgniter\Filters\Filters))
+ 3 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp81\\htdocs\\ci4_paranomi\\public\\index.php')
+CRITICAL - 2025-03-13 23:19:32 --> CodeIgniter\Exceptions\RuntimeException: Cannot stop timer: invalid name given.
+[Method: GET, Route: login]
+in SYSTEMPATH\Debug\Timer.php on line 71.
+ 1 SYSTEMPATH\CodeIgniter.php(106): CodeIgniter\Debug\Timer->stop('required_before_filters')
+ 2 SYSTEMPATH\CodeIgniter.php(71): CodeIgniter\CodeIgniter->runRequiredBeforeFilters(Object(CodeIgniter\Filters\Filters))
+ 3 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp81\\htdocs\\ci4_paranomi\\public\\index.php')
+CRITICAL - 2025-03-13 23:20:59 --> CodeIgniter\Exceptions\RuntimeException: Cannot stop timer: invalid name given.
+[Method: GET, Route: login]
+in SYSTEMPATH\Debug\Timer.php on line 71.
+ 1 SYSTEMPATH\CodeIgniter.php(106): CodeIgniter\Debug\Timer->stop('required_before_filters')
+ 2 SYSTEMPATH\CodeIgniter.php(71): CodeIgniter\CodeIgniter->runRequiredBeforeFilters(Object(CodeIgniter\Filters\Filters))
+ 3 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp81\\htdocs\\ci4_paranomi\\public\\index.php')
+CRITICAL - 2025-03-13 23:21:00 --> CodeIgniter\Exceptions\RuntimeException: Cannot stop timer: invalid name given.
+[Method: GET, Route: login]
+in SYSTEMPATH\Debug\Timer.php on line 71.
+ 1 SYSTEMPATH\CodeIgniter.php(106): CodeIgniter\Debug\Timer->stop('required_before_filters')
+ 2 SYSTEMPATH\CodeIgniter.php(71): CodeIgniter\CodeIgniter->runRequiredBeforeFilters(Object(CodeIgniter\Filters\Filters))
+ 3 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp81\\htdocs\\ci4_paranomi\\public\\index.php')
+CRITICAL - 2025-03-13 23:21:55 --> CodeIgniter\Exceptions\RuntimeException: Cannot stop timer: invalid name given.
+[Method: GET, Route: login]
+in SYSTEMPATH\Debug\Timer.php on line 71.
+ 1 SYSTEMPATH\CodeIgniter.php(106): CodeIgniter\Debug\Timer->stop('required_before_filters')
+ 2 SYSTEMPATH\CodeIgniter.php(71): CodeIgniter\CodeIgniter->runRequiredBeforeFilters(Object(CodeIgniter\Filters\Filters))
+ 3 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp81\\htdocs\\ci4_paranomi\\public\\index.php')
+CRITICAL - 2025-03-13 23:21:55 --> CodeIgniter\Exceptions\RuntimeException: Cannot stop timer: invalid name given.
+[Method: GET, Route: login]
+in SYSTEMPATH\Debug\Timer.php on line 71.
+ 1 SYSTEMPATH\CodeIgniter.php(106): CodeIgniter\Debug\Timer->stop('required_before_filters')
+ 2 SYSTEMPATH\CodeIgniter.php(71): CodeIgniter\CodeIgniter->runRequiredBeforeFilters(Object(CodeIgniter\Filters\Filters))
+ 3 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 6 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp81\\htdocs\\ci4_paranomi\\public\\index.php')
