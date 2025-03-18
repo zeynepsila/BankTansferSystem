@@ -1,2 +1,2 @@
-# BankTansferSystem
+# Bank Tansfer System
 Developed a bank transfer system implementing the Maker-Checker workflow using CodeIgniter 4 and Slim PHP frameworks. Users (Makers) initiate transactions, which require approval from administrators (Checkers) before completion. The system ensures secure authentication and API access via JWT Tokens. API endpoints were tested and validated using Postman, and dynamic front-end interactions were handled through AJAX.
